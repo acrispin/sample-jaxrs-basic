@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.anton.dev</groupId>
-    <artifactId>sample-jaxrs3</artifactId>
+    <artifactId>sample-jaxrs-basic</artifactId>
     <packaging>war</packaging>
     <version>1.0.0</version>
-    <name>sample-jaxrs3</name>
+    <name>sample-jaxrs-basic</name>
 
     <build>
         <finalName>sample-jaxrs3</finalName>
@@ -19,7 +19,7 @@
                 <configuration>
                     <scanIntervalSeconds>0</scanIntervalSeconds>
                     <webApp>
-                        <contextPath>/sample-jaxrs3</contextPath>
+                        <contextPath>/sample-jaxrs-basic</contextPath>
                    </webApp>
                     <httpConnector>
                         <!--host>localhost</host-->
